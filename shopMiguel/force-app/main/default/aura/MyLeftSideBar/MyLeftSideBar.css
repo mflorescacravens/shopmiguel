@@ -1,0 +1,15 @@
+.THIS {
+    background: white;
+    border-radius: 3px;
+    padding: 1em;
+}
+.THIS.expanded {
+    background-color: green;
+    animation-name: slide-in;
+    animation-duration: 1s;
+}
+ 
+.THIS.collapsed {
+    background-color: red;
+    transform: translateY(-100%)
+}

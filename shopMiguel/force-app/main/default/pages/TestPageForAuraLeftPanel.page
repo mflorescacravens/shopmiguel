@@ -1,0 +1,19 @@
+<apex:page >
+    <apex:includeLightning />
+    <div id="auraComponentContainer"></div>
+    <h3>
+        test
+    </h3>
+    <script>
+        $Lightning.use("c:MyLeftSideBarApp", function() {
+            $Lightning.createComponent(
+                "c:MyLeftSideBar",
+                {},
+                "auraComponentContainer",
+                function(cmp) {
+                    console.log('Aura Component created!');
+                }
+            );
+        });
+    </script>
+</apex:page>
