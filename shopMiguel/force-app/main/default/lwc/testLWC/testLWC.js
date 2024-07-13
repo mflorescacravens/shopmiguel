@@ -10,4 +10,7 @@ export default class TestLWC extends LightningElement {
     get messageInUpperCase() {
         return this.message.toUpperCase();
     }
+
+    // TODO: create experience site
+    // TODO: format experience site
 }
